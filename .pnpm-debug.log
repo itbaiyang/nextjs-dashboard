@@ -1,0 +1,539 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "private": true,
+      "scripts": {
+        "build": "next build",
+        "dev": "next dev --turbo",
+        "start": "next start"
+      },
+      "dependencies": {
+        "@heroicons/react": "^2.1.4",
+        "@tailwindcss/forms": "^0.5.7",
+        "@vercel/postgres": "^0.8.0",
+        "autoprefixer": "10.4.19",
+        "bcrypt": "^5.1.1",
+        "clsx": "^2.1.1",
+        "next": "^15.0.0",
+        "next-auth": "5.0.0-beta.19",
+        "postcss": "8.4.38",
+        "react": "19.0.0-rc-cd22717c-20241013",
+        "react-dom": "19.0.0-rc-cd22717c-20241013",
+        "tailwindcss": "3.4.4",
+        "typescript": "5.5.2",
+        "use-debounce": "^10.0.1",
+        "zod": "^3.23.8"
+      },
+      "devDependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/node": "20.14.8",
+        "@types/react": "npm:types-react@19.0.0-rc.1",
+        "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+      },
+      "pnpm": {
+        "overrides": {
+          "@types/react": "npm:types-react@19.0.0-rc.1",
+          "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+        }
+      }
+    },
+    "prefix": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard"
+  },
+  "2 warn pnpm": {
+    "message": "Ignoring broken lockfile at /Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard: Lockfile /Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard/pnpm-lock.yaml not compatible with current pnpm",
+    "prefix": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard"
+  },
+  "3 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/yuanyajiao/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard/node_modules/.pnpm"
+  },
+  "4 debug pnpm:stage": {
+    "prefix": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard",
+    "stage": "resolution_started"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@types%2Fbcrypt"
+  },
+  "6 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@heroicons%2Freact"
+  },
+  "7 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@tailwindcss%2Fforms"
+  },
+  "8 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@vercel%2Fpostgres"
+  },
+  "9 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/bcrypt"
+  },
+  "10 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/clsx"
+  },
+  "11 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/next"
+  },
+  "12 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/types-react-dom"
+  },
+  "13 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/types-react"
+  },
+  "14 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/next-auth"
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.cloud.tencent.com/autoprefixer/10.4.19",
+    "wanted": {
+      "dependentId": ".",
+      "name": "autoprefixer",
+      "rawSpec": "10.4.19"
+    }
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "mirrors.cloud.tencent.com/autoprefixer/10.4.19",
+    "requester": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.cloud.tencent.com/postcss/8.4.38",
+    "wanted": {
+      "dependentId": ".",
+      "name": "postcss",
+      "rawSpec": "8.4.38"
+    }
+  },
+  "18 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/use-debounce"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "mirrors.cloud.tencent.com/postcss/8.4.38",
+    "requester": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.cloud.tencent.com/react/19.0.0-rc-cd22717c-20241013",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react",
+      "rawSpec": "19.0.0-rc-cd22717c-20241013"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "mirrors.cloud.tencent.com/react/19.0.0-rc-cd22717c-20241013",
+    "requester": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "22 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://mirrors.cloud.tencent.com/npm/autoprefixer/-/autoprefixer-10.4.19.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/autoprefixer/-/autoprefixer-10.4.19.tgz"
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.cloud.tencent.com/@types/node/20.14.8",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/node",
+      "rawSpec": "20.14.8"
+    }
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "mirrors.cloud.tencent.com/@types/node/20.14.8",
+    "requester": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "25 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://mirrors.cloud.tencent.com/npm/postcss/-/postcss-8.4.38.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/postcss/-/postcss-8.4.38.tgz"
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.cloud.tencent.com/tailwindcss/3.4.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tailwindcss",
+      "rawSpec": "3.4.4"
+    }
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "mirrors.cloud.tencent.com/tailwindcss/3.4.4",
+    "requester": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "28 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://mirrors.cloud.tencent.com/npm/react/-/react-19.0.0-rc-cd22717c-20241013.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/react/-/react-19.0.0-rc-cd22717c-20241013.tgz"
+  },
+  "29 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.cloud.tencent.com/react-dom/19.0.0-rc-cd22717c-20241013",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-dom",
+      "rawSpec": "19.0.0-rc-cd22717c-20241013"
+    }
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "mirrors.cloud.tencent.com/react-dom/19.0.0-rc-cd22717c-20241013",
+    "requester": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "31 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://mirrors.cloud.tencent.com/npm/@types/node/-/node-20.14.8.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@types/node/-/node-20.14.8.tgz"
+  },
+  "32 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.cloud.tencent.com/typescript/5.5.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "5.5.2"
+    }
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "mirrors.cloud.tencent.com/typescript/5.5.2",
+    "requester": "/Users/yuanyajiao/study/mianshi/nodejs/nextjs-dashboard",
+    "status": "resolved"
+  },
+  "34 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://mirrors.cloud.tencent.com/npm/tailwindcss/-/tailwindcss-3.4.4.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/tailwindcss/-/tailwindcss-3.4.4.tgz"
+  },
+  "35 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@types%2Fbcrypt"
+  },
+  "36 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@heroicons%2Freact"
+  },
+  "37 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@tailwindcss%2Fforms"
+  },
+  "38 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@vercel%2Fpostgres"
+  },
+  "39 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/bcrypt"
+  },
+  "40 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/clsx"
+  },
+  "41 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/next"
+  },
+  "42 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/types-react-dom"
+  },
+  "43 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/types-react"
+  },
+  "44 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/next-auth"
+  },
+  "45 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/use-debounce"
+  },
+  "46 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://mirrors.cloud.tencent.com/npm/autoprefixer/-/autoprefixer-10.4.19.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/autoprefixer/-/autoprefixer-10.4.19.tgz"
+  },
+  "47 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://mirrors.cloud.tencent.com/npm/postcss/-/postcss-8.4.38.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/postcss/-/postcss-8.4.38.tgz"
+  },
+  "48 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://mirrors.cloud.tencent.com/npm/react/-/react-19.0.0-rc-cd22717c-20241013.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/react/-/react-19.0.0-rc-cd22717c-20241013.tgz"
+  },
+  "49 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://mirrors.cloud.tencent.com/npm/@types/node/-/node-20.14.8.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/@types/node/-/node-20.14.8.tgz"
+  },
+  "50 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 2,
+      "resource": "https://mirrors.cloud.tencent.com/npm/tailwindcss/-/tailwindcss-3.4.4.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://mirrors.cloud.tencent.com/npm/tailwindcss/-/tailwindcss-3.4.4.tgz"
+  },
+  "51 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://mirrors.cloud.tencent.com/npm/react-dom/-/react-dom-19.0.0-rc-cd22717c-20241013.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/react-dom/-/react-dom-19.0.0-rc-cd22717c-20241013.tgz"
+  },
+  "52 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "spec": {
+      "fetchSpec": ">=5.0.2 <6.0.0-0",
+      "name": "@types/bcrypt",
+      "type": "range"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://mirrors.cloud.tencent.com/npm/@types%2Fbcrypt: Value of \"this\" must be of type URLSearchParams",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://mirrors.cloud.tencent.com/npm/@types%2Fbcrypt: Value of \"this\" must be of type URLSearchParams\n    at RetryOperation._fn (/opt/homebrew/lib/node_modules/pnpm/dist/pnpm.cjs:85455:19)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at runNextTicks (node:internal/process/task_queues:64:3)\n    at listOnTimeout (node:internal/timers:540:9)\n    at process.processTimers (node:internal/timers:514:7)"
+    }
+  },
+  "53 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS",
+      "attempts": 1,
+      "resource": "https://mirrors.cloud.tencent.com/npm/typescript/-/typescript-5.5.2.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/typescript/-/typescript-5.5.2.tgz"
+  },
+  "54 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://mirrors.cloud.tencent.com/npm/zod"
+  }
+}
